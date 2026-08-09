@@ -1,0 +1,18 @@
+# Ignore local environment configuration files
+.env
+.env.local
+
+# Ignore dependency directories
+node_modules/
+__pycache__/
+
+# Ignore build and output directories
+dist/
+build/
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+.venv/
